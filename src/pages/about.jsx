@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Daniel Hurst</title>
         <meta
           name="description"
-          content="I’m Daniel Hurst. I live in North East, England, where I design the future."
+          content="I&apos;m Daniel Hurst. I live in North East, England, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,17 +61,17 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Daniel Hurst. I live in North East, England, where I design the
+              I&apos;m Daniel Hurst. I live in North East, England, where I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Hello, I'm Daniel, a dedicated software engineer based in North East England. 
+              <p>Hello, I&apos;m Daniel, a dedicated software engineer based in North East England. 
                 My expertise encompasses a range of cutting-edge technologies, including Python, 
                 JavaScript, and React. My journey in the ever-evolving landscape of digital marketing 
                 and ecommerce provided me with invaluable insights. However, it was the intricate world 
                 of software engineering that truly captured my heart—a realm where my genuine passion resides.</p>
 
-              <p>In my relentless pursuit of excellence, I've engaged closely with clients, 
+              <p>In my relentless pursuit of excellence, I&apos;ve engaged closely with clients, 
                 crafting tailored software solutions that span from groundbreaking SEO agents 
                 to impactful front-end development for esteemed organizations like YMCA. My 
                 skill set truly shines when it comes to AI-driven automation, the creation of 
@@ -84,13 +84,13 @@ export default function About() {
                 problem solved, stands as a testament to my dedication in turning abstract ideas 
                 into tangible reality.</p>
 
-              <p>As you explore my portfolio, you'll witness the harmonious interplay of art 
+              <p>As you explore my portfolio, you&apos;ll witness the harmonious interplay of art 
                 and technology. This is where visionary concepts meticulously transform into 
-                projects that consistently exceed expectations. Together, we'll craft solutions 
+                projects that consistently exceed expectations. Together, we&apos;ll craft solutions 
                 that leverage the power of coding, design brilliance, and automation, culminating 
                 in something truly extraordinary. Join me on this journey, where my past experiences 
                 in digital marketing and ecommerce converge with an unwavering ardor for software engineering. 
-                Together, let's shape the future—one line of code at a time.</p>
+                Together, let&apos;s shape the future—one line of code at a time.</p>
 
             </div>
           </div>

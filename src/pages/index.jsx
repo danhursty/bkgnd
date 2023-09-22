@@ -276,8 +276,8 @@ export default function Home({ articles }) {
             Software Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I'm Daniel, a British software engineer proficient in Python, JavaScript, React, and more. 
-          I've collaborated closely with clients, creating tailored software solutions – 
+          I&apos;m Daniel, a British software engineer proficient in Python, JavaScript, React, and more. 
+          I&apos;ve collaborated closely with clients, creating tailored software solutions – 
           from SEO agents to front-end development for enterprises like YMCA. I excel in AI-driven automation,
           web apps, and website development.
           I co-founded Hurst Creative, 
