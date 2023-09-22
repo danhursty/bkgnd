@@ -12,11 +12,11 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
+import logoYMCA from '@/images/logos/ymca.png'
 import logoFacebook from '@/images/logos/facebook.svg'
 // import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoJustUnderstanding from '@/images/logos/justunderstanding.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoJustUnderstanding from '@/images/logos/JUD.png'
+import logoLCG from '@/images/logos/logo-purple.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -150,25 +150,31 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Learning Curve Group',
+      title: 'Assosiate Tutor - Coding, Cyber Security',
+      logo: logoLCG,
+      start: '2023',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'YMCA',
+      title: 'Digital Marketing and Software Engineer',
+      logo: logoYMCA,
+      start: '2022',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'YMCA',
+      title: 'Ecommerce and Digital Marketing',
+      logo: logoYMCA,
+      start: '2018',
+      end: '2022',
     },
   ]
 
@@ -256,10 +262,12 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="Daniel Hurst is an experienced Software Engineer with a rich portfolio of completed projects and ongoing work. 
-          Specialising in developing robust and efficient software solutions, 
-          Daniel demonstrates a strong track record in various fields of engineering. 
-          Explore his work, discover his engineering skills, and learn how his expertise can make a difference in your software projects."
+          content="Daniel Hurst, an adept Web Developer turned Software Engineer, 
+          offers a multifaceted portfolio of projects across various engineering 
+          fields. With a focus on robust and efficient solutions, explore his work, 
+          uncover his engineering prowess, and see how his expertise can elevate your 
+          software initiatives.
+          "
         />
       </Head>
       <Container className="mt-9">
@@ -268,10 +276,13 @@ export default function Home({ articles }) {
             Software Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Daniel, a software designer based in North East, England. 
-            I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+          I'm Daniel, a British software engineer proficient in Python, JavaScript, React, and more. 
+          I've collaborated closely with clients, creating tailored software solutions – 
+          from SEO agents to front-end development for enterprises like YMCA. I excel in AI-driven automation,
+          web apps, and website development.
+          I co-founded Hurst Creative, 
+          merging design with AI and software for innovative solutions. Explore our page to elevate 
+          your next project with us, pushing creativity and technology boundaries.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -296,7 +307,7 @@ export default function Home({ articles }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/danieldhurst"
+              href="https://www.linkedin.com/in/danieldavidhurst/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow on LinkedIn"
@@ -315,7 +326,7 @@ export default function Home({ articles }) {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            {/* <Resume /> */}
+            <Resume />
           </div>
         </div>
       </Container>

@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Daniel Hurst</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Daniel Hurst. I live in North East, England, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,58 +61,59 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
+              I’m Daniel Hurst. I live in North East, England, where I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
-              </p>
-              <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
-              </p>
-              <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
-              </p>
+              <p>Hello, I'm Daniel, a dedicated software engineer based in North East England. 
+                My expertise encompasses a range of cutting-edge technologies, including Python, 
+                JavaScript, and React. My journey in the ever-evolving landscape of digital marketing 
+                and ecommerce provided me with invaluable insights. However, it was the intricate world 
+                of software engineering that truly captured my heart—a realm where my genuine passion resides.</p>
+
+              <p>In my relentless pursuit of excellence, I've engaged closely with clients, 
+                crafting tailored software solutions that span from groundbreaking SEO agents 
+                to impactful front-end development for esteemed organizations like YMCA. My 
+                skill set truly shines when it comes to AI-driven automation, the creation of 
+                compelling web apps, and the seamless execution of website development projects.</p>
+
+              <p>My commitment to pushing the boundaries of creativity and technology also led 
+                me to co-found Hurst Creative—an endeavor that seamlessly merges design finesse 
+                with the innovation of AI and software. Here, my journey comes full circle, 
+                reigniting my fervor for software engineering. Every line of code, every intricate 
+                problem solved, stands as a testament to my dedication in turning abstract ideas 
+                into tangible reality.</p>
+
+              <p>As you explore my portfolio, you'll witness the harmonious interplay of art 
+                and technology. This is where visionary concepts meticulously transform into 
+                projects that consistently exceed expectations. Together, we'll craft solutions 
+                that leverage the power of coding, design brilliance, and automation, culminating 
+                in something truly extraordinary. Join me on this journey, where my past experiences 
+                in digital marketing and ecommerce converge with an unwavering ardor for software engineering. 
+                Together, let's shape the future—one line of code at a time.</p>
+
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/danhursty" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://instagram.com/danhursty" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/danhursty" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://www.linkedin.com/in/danieldavidhurst/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:daniel.d.hurst@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                daniel.d.hurst@gmail.com
               </SocialLink>
             </ul>
           </div>
