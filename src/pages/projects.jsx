@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: 'YMCA',
-    description:'I directed website development for various projects, took charge of the trading subsidiary, and dedicated 3 years to the role of Ecommerce Manager for their online platform.',  
+    description:'I directed website development for various projects, took charge of the trading subsidiary, and dedicated 3 years to the role of Ecommerce Manager for their online platform. Presently, I continue to support them by implementing AI solutions to automate their most labor-intensive tasks, enhancing efficiency and productivity across the organisation.',  
     link: { href: 'https://www.ymcanewcastle.com/', label: 'ymcanewcastle.com' },
     logo: logoYmca,
   },
